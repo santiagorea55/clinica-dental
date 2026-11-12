@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "generado": "2026-11-06T00:28:21.428Z",
+  "entrada": "pregunta",
+  "salidas": [
+    "dominio",
+    "tema",
+    "intencion"
+  ],
+  "representacion": "bag_of_words_binario",
+  "normalizacion": "minusculas_sin_acentos_stopwords_controladas",
+  "vocabulario_size": 734,
+  "labels": {
+    "dominio": [
+      "casos_clinicos",
+      "contacto",
+      "equipo_clinico",
+      "instalaciones_tecnologia",
+      "privacidad_legal",
+      "tratamientos"
+    ],
+    "tema": [
+      "accesibilidad",
+      "blanqueamiento",
+      "carillas",
+      "casos",
+      "cedula_profesional",
+      "citas",
+      "clinica",
+      "correo",
+      "diseno_sonrisa",
+      "endodoncia",
+      "equipo",
+      "estacionamiento",
+      "filosofia_atencion",
+      "formacion_academica",
+      "horarios",
+      "identidad_doctora",
+      "implantes",
+      "limpieza",
+      "medios_contacto",
+      "odontologia_general",
+      "operatoria",
+      "ortodoncia",
+      "periodoncia",
+      "privacidad",
+      "protesis",
+      "redes_sociales",
+      "rehabilitacion",
+      "resinas",
+      "ruta",
+      "seguimiento",
+      "servicios_generales",
+      "tecnologia",
+      "telefono",
+      "trayectoria_profesional",
+      "ubicacion",
+      "ubicacion_practica",
+      "urgencias",
+      "valoracion",
+      "whatsapp"
+    ],
+    "intencion": [
+      "consultar_casos",
+      "consultar_contacto",
+      "consultar_equipo",
+      "consultar_instalaciones",
+      "consultar_privacidad",
+      "consultar_tratamiento",
+      "solicitar_cita"
+    ]
+  },
+  "config": {
+    "testRatio": 0.2,
+    "seed": 20261103,
+    "epochs": 80,
+    "batchSize": 8,
+    "minFrecuenciaPalabra": 1,
+    "paciencia": 12
+  }
+}

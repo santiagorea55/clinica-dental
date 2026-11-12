@@ -1,0 +1,16 @@
+{
+  "name": "clinica-dra-janet",
+  "private": true,
+  "description": "Sitio de la Clinica Dra. Janet (React). Solo hace falta compilar si cambia algo dentro de src/",
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --minify --jsx=automatic --target=es2019 --define:process.env.NODE_ENV=\\\"production\\\" --outfile=js/app.bundle.js && esbuild src/toon/index.js --bundle --minify --format=iife --target=es2019 --alias:three=./vendor/three/build/three.module.js --outfile=js/avatar-toon.bundle.js",
+    "watch": "esbuild src/main.jsx --bundle --jsx=automatic --target=es2019 --define:process.env.NODE_ENV=\\\"development\\\" --outfile=js/app.bundle.js --watch"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

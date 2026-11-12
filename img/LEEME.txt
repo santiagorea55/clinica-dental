@@ -1,0 +1,42 @@
+IMAGENES DE LA PAGINA  (todas son .jpg)
+=======================================
+Para cambiar una imagen: guarde su foto con EXACTAMENTE el mismo nombre, en la misma carpeta, y reemplace la anterior.
+Si una foto no existe, la pagina muestra la ilustracion .svg del mismo nombre (se dejaron como respaldo).
+Medida recomendada: 4:3 (por ejemplo 1200 x 900 px) para assets/img; 16:9 aprox. para servicios y casos.
+
+INICIO / NOSOTROS            carpeta: assets/img/
+  logo.jpg            logotipo (arriba a la izquierda)
+  hero.jpg            imagen grande de la portada
+  dra.jpg             foto de la doctora (Nosotros y ficha)
+  recepcion.jpg       Nuestra clinica: interior / recepcion
+  consultorio.jpg     Nuestra clinica: consultorio
+  equipo.jpg          Nuestra clinica: equipo
+  instalaciones.jpg   Nuestra clinica: instalaciones
+  operatoria.jpg      ilustracion de operatoria dental (reservada)
+
+SERVICIOS Y PROCEDIMIENTOS   carpeta: img/servicios/
+  rehabilitacion-completa.jpg   implantes-dentales.jpg      estetica-dental.jpg
+  limpieza-dental.jpg           blanqueamiento-dental.jpg   resinas-premium.jpg
+  resinas-dentales.jpg          implante-individual.jpg     puente-sobre-implantes.jpg
+  regeneracion-osea.jpg         carillas-porcelana.jpg      blanqueamiento-led.jpg
+  diseno-sonrisa-digital.jpg    contorneado-dental.jpg
+  (imagen1.jpg e imagen2.jpg no se usan en la pagina)
+
+CASOS CLINICOS               carpeta: img/casos/
+  caso-01-fase-1.jpg ... caso-05-fase-3.jpg   (5 casos x 3 fases: antes, proceso, despues)
+
+--- Imágenes (v43) ---
+Son ILUSTRACIONES vectoriales (1600x1000), no fotografías. Para usar fotos reales,
+reemplaza el archivo conservando el mismo nombre (.jpg), de preferencia en formato 16:10:
+  assets/img/: recepcion, consultorio, equipo, instalaciones, operatoria, logo
+  assets/img/dra.jpg: RETRATO vertical 3:4 (ej. 900x1200)
+  img/servicios/: todas las imágenes de servicios y procedimientos
+  img/casos/: caso-03-fase-1/2/3 y caso-04-fase-1/2/3 (ilustraciones; originales en img/casos/_respaldo/)
+Casos 01, 02 y 05 siguen con sus imágenes originales (baja resolución): conviene sustituirlas por fotos reales.
+El mapa de Contacto es un Google Maps incrustado: cambia 'mapaConsulta' en js/contenido.js por la dirección real.
+Datos de contacto, redes y textos legales (js/contenido.js) son FICTICIOS: reemplázalos antes de publicar.
+
+--- v48: imágenes propias del usuario ---
+Instaladas: assets/img (consultorio, equipo, instalaciones, recepcion, dra [recorte 4:5], logo [recorte]),
+img/servicios (18 servicios/procedimientos), img/casos (15 fases + portada caso-0N.jpg).
+Procedimientos sin imagen propia (regeneración ósea, brackets, alineadores, retenedores, raspado, mantenimiento, prótesis parcial/total, endodoncia, extracción) (salvo brackets, alineadores, retenedores, raspado, mantenimiento y prótesis, que ya tienen imagen propia) reutilizan la imagen de su servicio; para cambiarlas, reemplazar esos .jpg en img/servicios.
